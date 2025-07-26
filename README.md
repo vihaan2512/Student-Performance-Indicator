@@ -9,20 +9,20 @@ A complete end-to-end machine learning project to analyze and predict student pe
 
 ## 📂 Project Structure
 
-├── app.py                        # Flask application entry point
-├── requirements.txt              # Python dependencies
-├── setup.py                      # Package configuration
-├── .gitignore                    # Files to ignore in Git
-├── notebooks/
-│   ├── 1. EDA STUDENT PERFORMANCE.ipynb
-│   └── 2. MODEL TRAINING.ipynb
-├── src/
-│   ├── pipeline/
-│   │   ├── predict_pipeline.py   # Prediction pipeline
-│   │   └── ...                   # Other ML utilities
-├── templates/
-│   ├── index.html                # Landing page
-│   └── home.html                 # Prediction form/results
+* ├── app.py                        # Flask application entry point
+* ├── requirements.txt              # Python dependencies
+* ├── setup.py                      # Package configuration
+* ├── .gitignore                    # Files to ignore in Git
+* ├── notebooks/
+* │   ├── 1. EDA STUDENT PERFORMANCE.ipynb
+* │   └── 2. MODEL TRAINING.ipynb
+* ├── src/
+* │   ├── pipeline/
+* │   │   ├── predict_pipeline.py   # Prediction pipeline
+* │   │   └── ...                   # Other ML utilities
+* ├── templates/
+* │   ├── index.html                # Landing page
+* │   └── home.html                 # Prediction form/results
 
 
 ## 🎯 Objective
@@ -72,16 +72,15 @@ To predict student exam performance using input features such as gender, parenta
 
 ## 📈 Example Input
 
-Gender: Female
-Race/Ethnicity: Group B
-Parental Education: Bachelor's degree
-Lunch: Standard
-Test Prep: Completed
-Reading Score: 72
-Writing Score: 74
+* Gender: Male
+* Race/Ethnicity: Group B
+* Parental Education: Bachelor's degree
+* Lunch: Standard
+* Test Prep: Completed
+* Reading Score: 72
+* Writing Score: 74
 
 
 ## 🙋‍♂️ Author
 
 **Vihaan Malik**
-🔗 [LinkedIn](linkedin.com/in/vihaan-malik)
